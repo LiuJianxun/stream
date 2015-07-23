@@ -5,7 +5,8 @@
 4. 把该目录复制WEB服务器根目录下面, 直接访问: 域名/webapp
 
 #目录结构:
-+ webapp                                    //项目目录
+>
++ webapp                                    + //项目目录
 + |---- css                                 //样式目录
 + |---- |---- stream-v1.css                 //样式文件
 + |---- |---- img                           //图片目录
@@ -23,8 +24,13 @@
 * |---- |---- |---- files                   //上传文件保存目录
 * |---- |---- |---- tokens                  //令牌保存目录
 
-|---- swf                                 //FLASH目录
-|---- |---- FlashUploader.swf             //上传FLASH
+>
+>
++ |---- swf                                 //FLASH目录
++ |---- |---- FlashUploader.swf             //上传FLASH
 
-|---- index.html                          //上传显示页面
-|---- readme                              //说明文件
+
+>
+>
++ |---- index.html                          //上传显示页面
++ |---- readme                              //说明文件

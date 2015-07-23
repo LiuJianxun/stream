@@ -13,12 +13,12 @@ $upload->$action();
 
 /**
  * 上传类
- * @author ZhouHr   <2014.04.30>
+ * @author ZhouHr   <2015.07.23>
  */
 class upload
 {
-	private $_tokenPath = 'uploads/tokens/';            //令牌保存目录
-	private $_filePath = 'uploads/files/';              //上传文件保存目录
+	private $_tokenPath = '/Library/WebServer/www/file/tokens/';            //令牌保存目录
+	private $_filePath = '/Library/WebServer/www/file/upload/';              //上传文件保存目录
 
 	/**
 	 * 获取令牌
@@ -36,7 +36,7 @@ class upload
 			$path = $this->_filePath . date('Ymd') .'/';
 			//生成文件保存子目录
 			if(! is_dir($path)){
-				mkdir($path, 0700);
+				mkdir($path, 0777);
 			}
 			//上传文件保存目录
 			$file['filePath'] = $path . $file['token'] .'.'. $pathInfo['extension'];

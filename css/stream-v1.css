@@ -111,7 +111,7 @@ a {
 	border: 1px solid #fff;
 	font-size: 0;
 	background-position: 0 -149px;
-	background-image: url(./img/bgx.png);
+	background-image: url(../img/bgx.png);
 	background-repeat: repeat-x;
 	background-color: #A5DD3D;
 }
@@ -173,7 +173,7 @@ a {
 	left: 11px;
 	position: absolute;
 	top: 11px;
-	background: url("./img/upload.gif") no-repeat scroll 0 1px transparent !important;
+	background: url("../img/upload.gif") no-repeat scroll 0 1px transparent !important;
 	height: 18px;
 	width: 18px;
 }

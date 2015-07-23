@@ -3,7 +3,7 @@
 <head>
 <title>New Style SWF/HTML5 Stream Uploading DEMO</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="css/stream-v1.css" rel="stylesheet" type="text/css">
+<link href="./css/stream-v1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="i_select_files">
@@ -20,7 +20,7 @@
 <br>
 
 
-<script type="text/javascript" src="js/stream-v1.js"></script>
+<script type="text/javascript" src="./js/stream-v1.js"></script>
 <script type="text/javascript">
 /**
  * 配置文件（如果没有默认字样，说明默认值就是注释下的值）
@@ -44,10 +44,10 @@
 //			param1: "val1",
 //			param2: "val2"
 //		},
-		swfURL : "swf/FlashUploader.swf", /** SWF文件的位置 */
-		tokenURL : "php/upload.php?action=tk", /** 根据文件名、大小等信息获取Token的URI（用于生成断点续传、跨域的令牌） */
-		frmUploadURL : "php/upload.php?action=fd;", /** Flash上传的URI */
-		uploadURL : "php/upload.php?action=up", /** HTML5上传的URI */
+		swfURL : "./swf/FlashUploader.swf", /** SWF文件的位置 */
+		tokenURL : "./upload.php?action=tk", /** 根据文件名、大小等信息获取Token的URI（用于生成断点续传、跨域的令牌） */
+		frmUploadURL : "./upload.php?action=fd;", /** Flash上传的URI */
+		uploadURL : "./upload.php?action=up", /** HTML5上传的URI */
 //		simLimit: 200, /** 单次最大上传文件个数 */
 //		extFilters: [".txt", ".rpm", ".rmvb", ".gz", ".rar", ".zip", ".avi", ".mkv", ".mp3"], /** 允许的文件扩展名, 默认: [] */
 //		onSelect: function(list) {alert('onSelect')}, /** 选择文件后的响应事件 */

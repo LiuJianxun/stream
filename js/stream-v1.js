@@ -35,6 +35,7 @@
 					'<div class="stream-file-name"><strong></strong></div>' +
 					'<div class="stream-process">' +
 					'	<a class="stream-cancel" href="javascript:void(0)">删除</a>' +
+					'	<a class="stream-ok" href="javascript:void(0)"></a>' +
 					'	<span class="stream-process-bar"><span style="width: 0%;"></span></span>' +
 					'	<span class="stream-percent">0%</span>' +
 					'</div>' +
@@ -45,7 +46,7 @@
 					'</div>',
 		sTotalContainer = '<div id="#totalContainerId#" class="stream-total-tips">' +
 			'	上传总进度：<span class="stream-process-bar"><span style="width: 0%;"></span></span>' +
-			'	<span class="stream-percent">0%</span>，已上传<strong class="_stream-total-uploaded">&nbsp;</strong>' +
+			'	<span class="stream-percent">0%</span><br/>已上传<strong class="_stream-total-uploaded">&nbsp;</strong>' +
 			'	，总文件大小<strong class="_stream-total-size">&nbsp;</strong>' +
 			'</div>',
 		sFilesContainer	= '<div class="stream-files-scroll" style="height: #filesQueueHeight#px;"><ul id="#filesContainerId#"></ul></div>';
@@ -1461,6 +1462,7 @@
 				this.getNode("stream-uploaded", cellInfosNode).innerHTML = fmtSize + "/" + fmtSize;
 				this.getNode("stream-remain-time", cellInfosNode).innerHTML = "00:00:00";
 				this.getNode("stream-cancel", progressNode).innerHTML = "";
+				this.getNode("stream-ok", progressNode).innerHTML = "完成";
 				
 				var _loaded = this.formatBytes(this.totalUploadedSize);
 				var percent = this.totalUploadedSize * 10000 / this.totalFileSize / 100;

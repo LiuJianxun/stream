@@ -1,10 +1,12 @@
 @charset "utf-8";
 body {
+	width:1100px;
+	margin: 0 auto;
 	color: #000;
 	line-height: 166.6%;
-	float: left;
 	font-family: verdana;
-	font-size: 12px;
+	font-size: 18px;
+	font-weight:bold;
 }
 
 ul,ol {
@@ -23,12 +25,14 @@ ul,ol,li,img {
 }
 
 .stream-browse-drag-files-area {
-	border: 2px dashed #555;
-	padding: 10px 0;
+	border: 3px dashed #555;
+	padding: 20px 0;
 	border-radius: 7px;
 	text-align: center;
-	margin: 10px 0;
+	margin: 20px 0;
 	cursor: pointer;
+	width: 100%;
+
 }
 
 .stream-disable-browser {
@@ -81,7 +85,7 @@ a {
 }
 
 .stream-cell-file .stream-process-bar {
-	width: 300px;
+	width: 900px;
 }
 
 .stream-cell-file .stream-process-bar,.stream-cell-file .stream-percent {
@@ -91,7 +95,7 @@ a {
 
 .stream-cell-file .stream-process-bar {
 	margin-top: 5px;
-	width: 430px;
+	width: 900px;
 }
 
 .stream-process-bar {
@@ -129,7 +133,7 @@ a {
 }
 
 .stream-cell-file .stream-cell-infos .stream-cell-info {
-	width: 170px;
+	width: 270px;
 }
 
 .stream-cell-file .stream-cell-infos span {
@@ -138,7 +142,7 @@ a {
 }
 
 .stream-total-tips .stream-process-bar {
-	width: 200px;
+	width: 800px;
 	margin-top: -1px;
 }
 
@@ -160,10 +164,10 @@ a {
 }
 
 .stream-main-upload-box {
-	width: 610px;
+	width: 100%;
 	background-color: #FFFFFF;
 	border-style: solid;
-	border-width: 1px;
+	border-width: 3px;
 	border-color: #50A05B;
 	clear: both;
 	overflow: hidden;

@@ -5,7 +5,7 @@ $actions = array('tk', 'up', 'fd');
 //判断是否正确的请求
 if(! in_array($action, $actions)){
 	//错误
-	exit;
+    die("施主，从哪来，回哪去！");
 }
 
 $upload = new upload();

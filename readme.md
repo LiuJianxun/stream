@@ -1,3 +1,7 @@
+
+#演示地址
+[http://www.phpxun.com/demo/upload/](http://www.phpxun.com/demo/upload/)   "This is upload programe"
+
 #DEMO测试:
 1. 该DEMO因为个人电脑原因, 暂时未做FALSH的支持, 只做了HTML5的后端
 2. 支持PHP解析的WEB服务器

@@ -1,3 +1,5 @@
+#快速入门
+[http://www.phpxun.com/post/113.html](http://www.phpxun.com/post/113.html) "This article is about stream upload"  
 
 #演示地址
 [http://www.phpxun.com/demo/upload/](http://www.phpxun.com/demo/upload/)   "This is upload programe"

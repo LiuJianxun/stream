@@ -17,8 +17,8 @@ $upload->$action();
  */
 class upload
 {
-	private $_tokenPath = '/Library/WebServer/www/file/tokens/';            //令牌保存目录
-	private $_filePath = '/Library/WebServer/www/file/upload/';              //上传文件保存目录
+	private $_tokenPath = '/alidata/www/default/file/tokens/';            //令牌保存目录
+	private $_filePath = '/alidata/www/default/file/upload/';              //上传文件保存目录
 
 	/**
 	 * 获取令牌

@@ -11,7 +11,7 @@
 
 	<div id="i_stream_files_queue">
 	</div>
-	Messages:
+    <span onclick="javascript:_t.upload();" style="cursor:pointer;">Messages:</span>
 	<div id="i_stream_message_container" class="stream-main-upload-box" style="overflow: auto;height:150px;">
 	</div>
 <br>
@@ -42,9 +42,9 @@
 //			param2: "val2"
 //		},
 		swfURL : "./swf/FlashUploader.swf", /** SWF文件的位置 */
-		tokenURL : "/upload.php?action=tk", /** 根据文件名、大小等信息获取Token的URI（用于生成断点续传、跨域的令牌） */
-		frmUploadURL : "/upload.php?action=fd;", /** Flash上传的URI */
-		uploadURL : "/upload.php?action=up", /** HTML5上传的URI */
+		tokenURL : "./upload.php?action=tk", /** 根据文件名、大小等信息获取Token的URI（用于生成断点续传、跨域的令牌） */
+		frmUploadURL : "./upload.php?action=fd;", /** Flash上传的URI */
+		uploadURL : "./upload.php?action=up", /** HTML5上传的URI */
 		simLimit: 1000, /** 单次最大上传文件个数 */
 //		extFilters: [".txt", ".rpm", ".rmvb", ".gz", ".rar", ".zip", ".avi", ".mkv", ".mp3"], /** 允许的文件扩展名, 默认: [] */
 //		onSelect: function(list) {alert('onSelect')}, /** 选择文件后的响应事件 */

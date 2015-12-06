@@ -3,6 +3,8 @@
 
 #演示地址
 [http://work.phpxun.com/upload/](http://work.phpxun.com/upload/)   "This is upload programe"
+[http://work.phpxun.com/stream/bootstrap.html](http://work.phpxun.com/stream/bootstrap.html)   "This is upload programe"
+[http://work.phpxun.com/stream/](http://work.phpxun.com/stream/)   "This is upload programe"
 
 #DEMO测试:
 1. 该DEMO因为个人电脑原因, 暂时未做FALSH的支持, 只做了HTML5的后端
